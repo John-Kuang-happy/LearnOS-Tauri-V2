@@ -53,3 +53,5 @@ Desktop.ini
 # Rust
 *.rs.bk
 Cargo.lock
+
+.superpowers/

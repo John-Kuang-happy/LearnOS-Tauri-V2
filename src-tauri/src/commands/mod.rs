@@ -1,0 +1,14 @@
+pub mod subject_commands;
+pub mod plan_commands;
+pub mod execution_commands;
+pub mod review_commands;
+pub mod knowledge_point_commands;
+pub mod ebbinghaus_commands;
+pub mod analysis_commands;
+pub mod exam_commands;
+pub mod insight_commands;
+pub mod nlp_commands;
+pub mod auto_commands;
+pub mod settings_commands;
+pub mod dashboard_commands;
+pub mod progress_commands;

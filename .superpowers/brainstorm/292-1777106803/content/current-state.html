@@ -1,0 +1,48 @@
+<h2>LearnOS 当前状态：三个独立系统</h2>
+<p class="subtitle">学习计划、艾宾浩斯复习、智能分析——各自独立运行</p>
+
+<div class="section">
+  <h3>📋 学习计划</h3>
+  <div class="mockup">
+    <div class="mockup-body">
+      <p>学生手动创建计划：填标题、选科目、设日期、选时长</p>
+      <p>→ 周视图显示计划分布</p>
+      <p>→ 点击「开始」启动番茄钟</p>
+      <p style="color: #ef4444;">❌ 不关联知识点</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>🧠 艾宾浩斯复习</h3>
+  <div class="mockup">
+    <div class="mockup-body">
+      <p><strong>唯一入口：手动创建知识点</strong></p>
+      <p>学生手动录入：名称、科目、难度1-5、重要性1-5、描述、来源</p>
+      <p>→ 系统自动生成复习记录</p>
+      <p>→ 看板显示今日/本周待复习</p>
+      <p style="color: #ef4444;">❌ 和学习计划无关联（source_kp_id 从未在前端填充）</p>
+      <p style="color: #ef4444;">❌ 复习就是复习，不知道为什么复习、跟哪个计划相关</p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>📊 智能分析</h3>
+  <div class="mockup">
+    <div class="mockup-body">
+      <p>5因子评分：完成率低 + 掌握度低 + 情绪差 + 目标差距 + 复习逾期</p>
+      <p>→ 生成薄弱科目排行</p>
+      <p>→ 生成建议 Insights</p>
+      <p style="color: #ef4444;">❌ 分析结果是静态的，不会自动调整学习计划</p>
+      <p style="color: #ef4444;">❌ 建议是文本，不会自动创建任务</p>
+    </div>
+  </div>
+</div>
+
+<hr style="margin: 24px 0; border-color: var(--border);">
+
+<h3>核心问题：数据流断裂</h3>
+<p>计划创建 → 番茄钟 → 复盘 → <span style="color: #ef4444;">???</span> → 知识点？</p>
+<p>知识点创建 → 复习记录 → SM-2排程 → <span style="color: #ef4444;">???</span> → 计划？</p>
+<p>分析结果 → Insights → <span style="color: #ef4444;">???</span> → 影响行为？</p>
